@@ -1,0 +1,92 @@
+.headerEfecto{
+    color: $color3;
+    background-color: $color4;
+    width: 100%;
+}
+
+.heroIndex{
+    background-size: 100%;
+    width: 50%;
+    margin: 3rem auto 0rem;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contBlur{
+    background-size: contain;
+    width: 95%;
+    height: fit-content;
+    margin: 3rem auto;
+    position: center;
+    backdrop-filter: blur(0.5rem);
+    z-index: 0;
+    border-radius: 0.25rem;
+    border: 0.15rem solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(29, 29, 29, 0.247), 0px -10px 5px rgba(32, 32, 32, 0.199);
+}
+
+.contBlurNegro{
+    background-size: contain;
+    width: 100%;
+    height: fit-content;
+    position: center;
+    background-color: $color4;
+    z-index: 0;
+    border-radius: 0.25rem;
+}
+
+.containerServicios{
+    background-size: contain;
+    width: 95%;
+    height: fit-content;
+    margin: 3rem auto;
+    position: center;
+}
+
+.flex__servicios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex__servicios--hijo{
+    width: 320px;
+    padding: 1%;
+    text-align: center;
+    animation-duration: 2s;
+    align-content: space-around;
+                i{
+                    justify-content: space-evenly;
+                    font-size: 2rem;
+                    color: $color2;
+                    margin-bottom: 0.5rem;
+                    opacity: 80%;
+                }
+                h2{
+                    text-align: center;
+                    color: $color1;
+                    font-weight: 400;
+                    font-size: 1.2rem;
+                }
+                p{
+                    text-align: left;
+                    color: $color4;
+                    font-size: 14px;
+                }
+                .pinkLine{
+                    color: $color1;
+                    font-size: 1rem;
+                    text-align: center;
+                }
+
+}
+
+@media only screen and (min-width: 767px){
+
+    .heroIndex {
+        width: 20%;
+    }
+}

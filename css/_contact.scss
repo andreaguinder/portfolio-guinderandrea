@@ -1,0 +1,218 @@
+h4{
+    color: $color2;
+}
+
+p{
+    color: $color4;
+}
+
+.formularioh4 {
+    font-size: 1rem !important;
+}
+
+.formularioParrafo {
+    font-size: 0.75rem;
+}
+
+.formularioButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__contact{
+    color: $color3;
+    backdrop-filter: blur(0.5rem);
+    background-color: $color4;
+    border-radius: 5px;
+    margin-top: 0%; 
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0px 5px 5px rgba(29, 29, 29, 0.377), 0px -5px 5px rgba(32, 32, 32, 0.329);
+
+        i{
+            font-size: 1.5rem;
+        }
+}
+
+.contact__h5{
+    font-weight: bold;
+}
+
+.modalContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: $color4;
+    background-size: contain;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+.modalActive{
+    visibility: visible;
+    opacity: 1;
+    z-index: 100;
+}
+
+.modalForm{
+    color: $color6;
+    background-color: $color3;
+    background-size: contain;
+    width: 70%;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.25rem;
+    margin: auto;
+    font-size: 1rem;
+
+        button{
+            border: none;
+            
+            .fas{
+                font-weight: bold;
+                font-size: 2rem;
+            }
+        }
+}
+
+// los servicios que ofrezco con input radio
+.servOfrecidos{
+    color: $color1;
+    background-color: $color1;
+}
+
+.form-check-input:checked {
+    background-color: $color2;
+    border-color: $color7;
+}
+
+
+.formuario__label{
+    display: block;
+    font-weight: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.formulario__entrada,
+.form__elegir{
+    font-size: 0.75rem;
+}
+
+.formulario__entrada{
+    margin: 1rem 0rem;
+}
+
+.formulario__entrada-input{
+    position: relative;
+}
+
+.formulario__input{
+    width: 100%;
+    background-color: $color3;
+    border: 0.25rem solid transparent;
+    border-radius: 0.35rem;
+    height: 2.50rem;
+    line-height: auto;
+    padding: 0 3rem 0 1rem;
+    transition: .3s ease all;
+}
+
+.formulario__input--mensaje{
+    width: 100%;
+    background-color: $color3;
+    border: 0.25rem solid transparent;
+    border-radius: 0.35rem;
+    height: 5rem;
+    line-height: auto;
+    padding: 0 3rem 0 1rem;
+    transition: .3s ease all;
+}
+
+.formulario__input--mensaje:focus{
+    border: 0.3rem solid $color1;
+    outline: none;
+}
+
+.formulario__input:focus{
+    border: 0.1rem solid $color1;
+    outline: none;
+}
+
+// el texto de error debajo de los imput
+.formulario__input-error {
+    font-size: 0.75rem;
+    margin-bottom: 0;
+    display: none;
+    color: $color3;
+}
+
+.formulario__input-error-activo {
+    display: block;
+}
+
+
+.formulario__validacion-estado{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.formulario__mensaje{
+    height: auto;
+    padding: 20%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: $color2;
+    padding: 0 15px ;
+    border-radius: 3px;
+    display: none;
+    color: $color3;
+}
+
+.formulario__mensaje-activo {
+    display: block;
+}
+
+.formulario__mensaje p{
+    padding: 5px;
+}
+
+.formulario__entrada-correcto .formulario__validacion-estado{
+    color: $color1;
+    opacity: 1;
+}
+
+.formulario__entrada-incorrecto .formulario__label{
+    color: $color1;
+}
+
+.formulario__entrada-incorrecto .formulario__validacion-estado{
+    color: $color2;
+    opacity: 1;
+}
+
+.formulario__entrada-incorrecto .formulario__input {
+    border: 2px solid $color2; 
+    box-shadow: none;
+}
+
+//suscripcion 
+
+.recibir__novedades:focus{
+    background-color: $color1;
+    color: $color3;
+}

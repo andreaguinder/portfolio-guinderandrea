@@ -1,0 +1,73 @@
+footer{
+    color: $color3;
+    background-color: $color4;
+    background-size: cover;
+    background-position-x: center;
+    width: 100%;
+    box-shadow: 0px -5px 7px 0px rgba(59, 59, 59, 0.75);
+    
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 70%;
+        margin: auto;
+        padding-top: 0.5rem;
+
+        p{
+            text-align: center;
+            align-content: space-around;
+            color: $color3;
+            font-size: 0.5rem;
+            padding: 0.25rem 0.5rem 0rem;
+            margin-right: 1rem;
+
+            a{
+                text-decoration: none;
+                color: $color3;
+            }
+
+            a:hover{
+                color: rgb(255, 131, 199);
+            }
+        }
+    }
+
+    .fab{
+        font-size: 1.5rem;
+        color: white;
+        padding-bottom: 0.5rem;
+    }
+    .fab:hover{
+        color: rgb(255, 131, 199);
+    }
+}
+
+.contBlur2{
+    background-size: contain;
+    width: 100%;
+    height: fit-content;
+    margin: 3rem auto 0rem;
+    position: center;
+    backdrop-filter: blur(0.5rem);
+    z-index: 0;
+    border: 0.15rem solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(29, 29, 29, 0.247), 0px -10px 5px rgba(32, 32, 32, 0.199);
+}
+
+.contBlurNegro2{
+    background-size: contain;
+    width: 100%;
+    height: fit-content;
+    position: center;
+    background-color: $color4;
+    z-index: 0;
+}
+
+@media only screen and (min-width:350px) and (max-width: 768px) {
+    footer div p {
+        margin-right: 0rem;
+    }
+}
+

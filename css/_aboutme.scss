@@ -1,0 +1,112 @@
+.contBlurSobre{
+    width: 90%;
+    height: fit-content;
+    margin: 3rem auto;
+    position: center;
+    backdrop-filter: blur(0.8rem);
+    z-index: 0;
+    border-radius: 0.25rem;
+    border: 0.15rem solid $color3;
+    box-shadow: 10px 10px 5px rgba(29, 29, 29, 0.247), 0px -10px 5px rgba(32, 32, 32, 0.199);
+}
+
+.containerSobreMi{
+    background-color: $color4;
+    background-size: contain;
+    width: 100%;
+    height: fit-content;
+    position: center;
+}
+
+.containerSobreMi1{
+    background-size: contain;
+    width: 100%;
+    height: fit-content;
+    position: center;
+    backdrop-filter: blur(0.15rem);
+}
+.flex__sobremi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex__sobremi--hijo{
+    width: 360px;
+    text-align: center;
+    animation-duration: 2s;
+    align-content: space-around;
+    margin: 1rem;
+
+
+    img{
+        background-size: contain;
+        width: 100%;
+    }
+
+    .contFotoMia{
+        height: 100%;
+        flex-basis: 100%;
+        margin: auto;
+        justify-content: space-around;
+        padding: 10%;
+        backdrop-filter: blur(0.5rem);
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 0.25rem;
+        align-items: center;
+    }
+                h1{
+                    text-align: center;
+                    color: rgb(255, 131, 199);
+                    padding-top: 10%;
+                }
+                p{
+                    text-align: left;
+                    color: rgb(255, 255, 255);
+                    font-size: 0.85rem;
+                    font-weight: normal;
+                    text-justify: justify;
+                    padding-top: 5%;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: $color1;
+                }
+}
+
+.flex__sobremi--hijo ul{
+    color: $color6;
+    text-align: left;
+
+}
+
+#logosSobreMi{
+    height: 100%;
+    flex-basis: 100%;
+    justify-content: space-around;
+    padding: 10%;
+    backdrop-filter: blur(0.5rem);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.25rem;
+    align-items: center;
+}
+
+@media only screen and (min-width:350px) and (max-width: 768px){
+
+    .contBlurSobre{
+        width: 100%;
+        height: fit-content;
+        margin: 0.25rem auto;
+    }
+
+    .flex__sobremi--hijo ul{
+        font-size: 0.75rem;
+    }
+
+    
+#logosSobreMi{
+    padding: 0%;
+}
+}

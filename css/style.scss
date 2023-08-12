@@ -1,0 +1,292 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+@import "variables";
+
+body{
+    background-image: url(../images/fondo-nuevo\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;   
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+}
+/*
+body::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: $color4;
+    border-radius: 3rem;
+    position: absolute;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: $color4;
+    height: 2rem;
+    border-radius: 3rem;
+    position: absolute;
+    z-index: 100;
+}
+*/
+@import "index";
+
+.mainSpace{
+    margin-top: 3rem;
+}
+
+.container-nav{
+    width: 95%;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+header{
+    background-image:  url(../images/imagen-nuevo-header.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    border: 1px solid $color6;
+    height: 4rem;
+    padding: 1rem 0;
+    position: relative;
+    box-shadow: 0px 5px 7px 0px rgba(59, 59, 59, 0.75);
+}
+
+header::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+.logo{
+    float: left;
+    margin-top: -0.75rem;
+    margin-left: 0.25rem;
+}
+
+.logo h1{
+    color: $color3;
+    font-size: 1rem;
+    margin-left: 0.25rem;
+    margin-top: 1.2rem;
+}
+.site__nav{
+    top: 100%;
+    right: 0%;
+    height: 20rem;
+    position: absolute;
+    background-color: $color4;
+    clip-path: circle(0 at top right);
+    transition: clip-path ease-in-out 0.5s;
+    backdrop-filter: blur(0.5rem);
+    z-index: 100;
+}
+
+.site__navAbrir{
+    clip-path: circle(150% at top right);
+    height: 17.2rem;
+    z-index: 100;
+}
+
+.site__nav ul{
+    padding-top: 0%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    list-style: none;
+    width: 12rem;
+}
+
+.site__nav li{
+    border-bottom: 2px solid $color3;
+}
+
+.site__nav li:last-child{
+    border-bottom: none;
+}
+
+.site__nav a{
+    color: $color3;
+    display: block;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.site__nav a:hover{
+    border: 1px solid $color5;
+    font-weight: bold;
+}
+
+.site__nav a:focus{
+    background-color: $color4;
+    border: 1px solid rgba(255,255,255,05);
+    color: $color1;
+}
+
+.site__nav--icon{
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-right: 1.50rem;
+    width: 3rem;
+    text-align: right;
+    color: $color5;
+}
+
+// el menu hamburguesa
+.menu-toggle{
+    backdrop-filter: blur(15rem);
+    border: 2px solid $color5;
+    border-radius: 3px;
+    padding: 0.75rem 1rem 1.25rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.menu-toggle.menu-abierto {
+    padding: 1.20rem 1rem 0.80rem !important;
+}
+
+.menu-abierto .menu-hamburguesa{
+    transform: rotate(45deg);
+}
+
+.menu-abierto .menu-hamburguesa::before{
+    opacity: 0;
+}
+
+.menu-abierto .menu-hamburguesa::after{
+    transform: translateY(-0.45rem) rotate(-90deg);
+}
+
+div.menu-hamburguesa{
+    padding-top: 0.025rem;
+    padding-bottom: 0.20rem;
+    height: 0.25rem;
+}
+
+.menu-hamburguesa,
+.menu-hamburguesa::before,
+.menu-hamburguesa::after{
+    content: "";
+    display: block;
+    background-color: $color3;
+    height: 0.25rem;
+    width: 1.5rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 0.4s;
+//    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.menu-hamburguesa::before{
+    transform: translateY(0.35rem);//////toDO 0.25rem
+}
+
+.menu-hamburguesa::after{
+    transform: translateY(0.35rem); //0.25rem
+}
+
+@media only screen and (min-width: 767px){
+    .mainSpace .mockup-web{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .logo h1 {
+        font-size: 0.5rem;
+        margin-top: 1.1rem;
+    }
+
+    header{
+        border: none;
+    }
+    .menu-toggle{
+        display: none;
+    }
+    .site__nav{
+        height: auto;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: none;
+        float: right;
+        margin-top: -2.5rem;
+        margin-right: 1rem;
+        clip-path: initial;
+        text-align: center;
+    }
+
+    .site__nav li{
+        display: inline-block;
+        border: none;
+        
+    }
+    .site__nav a{
+        padding: 0;
+        margin-top: 1.55rem;
+        margin-left: 0.75rem;
+    }
+    
+    .site__nav--icon{
+        display: none;
+    }
+
+    .site__nav a:hover,
+    .site__nav a:focus{
+        background-color: transparent;
+        border: none;
+    }
+
+    .site__nav ul{
+        padding-top: 5%;
+        list-style: none;
+        padding-left: 0%;
+        padding-bottom: 0%;
+        width: 100%;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .logo h1 {
+        font-size: 1rem;
+        margin-top: 1.22rem;
+    }
+}
+
+.btnPink{
+    background-color: $color1;
+    color: $color3;
+    padding: 0.2rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.btnPink:hover{
+    background-color: $color2;
+    color: $color3;
+}
+
+@import "contact";
+@import "aboutme";
+@import "web";
+@import "dg";
+@import "mkt";
+@import "footer";
+
+@media only screen and (min-width: 1024px){
+    .logo h1 {
+        font-size: 1.5rem;
+        margin-top: 1.1rem;
+    }
+
+    .site__nav a{
+        padding: 0;
+        margin-top: 1.60rem;
+        margin-left: 0.75rem;
+    }
+
+}

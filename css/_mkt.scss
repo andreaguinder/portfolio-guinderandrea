@@ -1,0 +1,237 @@
+
+/*--------------Productos: Galería con GRID: Info general-------------*/
+/*--------------Productos: Galería con GRID: Info general-------------*/
+/*--------------Productos: Galería con GRID: Info general-------------*/
+
+#gallery {
+    background-size: 100vh;
+    justify-content: center;
+}
+
+#gallery h3 {
+    color: $color2;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.grid-item {
+    min-height: auto;
+    min-width: 100%;
+    border: 0.15rem solid $color3;
+    border-radius: 0.2rem;
+    backdrop-filter: blur(0.15rem);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(1);
+}
+
+.grid-item:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    filter: none;
+    box-shadow: 5px 5px 5px 1px rgba(43, 42, 42, 0.774);
+}
+
+.grid-container {
+    width: 95%;
+    margin: auto;
+    height: auto;
+    padding: 2%;
+    display: grid;
+    grid-column-gap: 0.3rem;
+    grid-row-gap: 0.3rem;
+}
+
+/*----------Galería con GRID: Items con imágenes----------*/
+/*----------Galería con GRID: Items con imágenes----------*/
+/*----------Galería con GRID: Items con imágenes----------*/
+
+.item1 {
+    grid-area: "item1";
+    background-image: url(../images/otras/banner-guillemieri.png);
+}
+
+.item2 {
+    grid-area: "item2";
+    background-image: url(../images/otras/banner-hf.png);
+}
+
+.item3 {
+    grid-area: "item3";
+    background-image: url(../images/mkt/tarjetas-comerciales.png);
+}
+
+.item4 {
+    grid-area: "item4";
+    background-image: url(../images/otras/caraatula-maf.png);
+}
+
+.item5 {
+    grid-area: "item5";
+    background-image: url(../images/otras/banner-hf2.png);
+}
+
+.item6 {
+    grid-area: "item6";
+    background-image: url(../images/otras/pases-vip-desfile.png);
+}
+
+.item7 {
+    grid-area: "item7";
+    background-image: url(../images/mkt/mockup-dvd.png);
+}
+
+.item8 {
+    grid-area: "item8";
+    background-image: url(../images/otras/tapa-cosmeprof.png);
+}
+
+.item9 {
+    grid-area: "item9";
+    background-image: url(../images/otras/veroypablo.png);
+}
+
+@media only screen and (min-width: 360px) and (max-width: 599px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    #gallery{
+        margin: -10% 5% 10% 5%;
+    }
+
+    .grid-item {
+        height: 15rem;
+    }
+
+    #gallery h3 {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #gallery{
+        margin: -5% 2% 5% 2%;
+    }
+
+    .grid-item{
+        height: 15rem;
+    }
+
+    .item9{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .grid-item {
+        min-width: 5rem;
+        min-height: 10rem;
+    }
+    .item1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .item2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .item3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .item4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+
+    #gallery{
+        margin: -5% 2% 5% 2%;
+    }
+}
+
+@media only screen and (min-width: 1201px){
+    
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .grid-item {
+        min-width: 5rem;
+        min-height: 10rem;
+    }
+
+    .item1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .item2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .item3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .item4 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .item8 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .item9 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+        
+    #gallery{
+        margin: -2% 2% 5% 2%;
+    }
+}
+
+.mas-trabajos {
+    margin: 0px auto;
+    padding: 0rem 2rem;
+
+    a{
+
+        color: $color2;
+    }
+}

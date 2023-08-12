@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Trabajos de Diseño Gráfico, Community Management, Marketing Digital y Desarrollo Web.">
+    <meta name="keywords"
+    content="WEB, DISEÑO, GRAFICA, COMMUNITY, MARKETING, DIGITAL, ESTILO, DESARROLLO, HTML, CSS, JAVASCRIPT, FRONTEND, BACKEND">
+    <!----------Fuente de Google------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!------------Logo en URL------------>
+    <link rel="shortcut icon" href="../images/logo-ag-negro.png" type="image/x-icon">
+    <!---------Fuente de Google------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!---------Enlace a FontAwesome----------->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!---------Logo en URL----------->
+    <link rel="shortcut icon" href="../images/logo-ag-negro.png" type="image/x-icon">
+    <!---------Enlace a Bootstrap---------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!----------Enlace a Estilos Propios----------->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Desarrollo Web</title>
+</head>
+<body>
+    <header>
+        <div class="container-nav">
+                <div class="logo"> <h1 id="nombreAndy">#MeDicenAndy</h1></div>
+                <nav id="site__nav" class="site__nav">
+                    <ul>
+                        <li><a href="../index.html"><i class="fa fa-home site__nav--icon"></i>INICIO</a></li>
+                        <li><a href="../pages/design.html"><i class="fa fa-pen-nib site__nav--icon"></i>DISEÑO</a></li>
+                        <li><a href="../pages/web.html"><i class="fa fa-edit site__nav--icon"></i>WEB</a></li>
+                        <li><a href="../pages/aboutme.html"><i class="fas fa-user site__nav--icon"></i>SOBRE MÍ</a></li>
+                        <li><a href="../pages/contact.html"><i class="fa fa-envelope site__nav--icon"></i>CONTACTO</a></li>
+                    </ul>
+                </nav>
+            <div id="menu-toggle" class="menu-toggle" onclick="cambiarClaseMenu()">
+                <div class="menu-hamburguesa"></div>
+            </div>
+        </div>
+        </header>
+    <main class="mainSpace">
+        <section>
+            <img class="mockup-web responsiveImg" src="../images/mockup-web.png">
+        </section>
+
+
+        <!----------Cuarta Sección: Cards de Clientes Bootstrap----------->
+
+        <h3 class="text-center h3__index mt-5 mb-4 mx-3">Páginas Web Desarrolladas</h3>
+
+        <section class="container cards-clientes my-5">
+        <div class="row g-4">
+            <div class="blog-card mx-auto">
+                <div class="meta">
+                    <div class="photo"
+                        style="background-image: url(../images/mamamotos.jpg)">
+                    </div>
+                    <ul class="details">
+                        <li class="author">Mamamotos</li>
+                        <li class="date">Argentina</li>
+                    </ul>
+                </div>
+                <div class="description">
+                    <h5 class="h5__cards">Sitio Web Completo</h5>
+                    <h2>DG / CM / DW</h2>
+                    <p class="small-text">Desarrollo web y Diseños propios de sitio con 5 páginas basado en HTML5, CSS3, Bootstrap.</p>
+                    <p class="read-more">
+                        <a href="https://andreaguinder.github.io/sitio-mamamotos-guinder-andrea/" target="_blank">Ver sitio</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="blog-card mx-auto">
+                <div class="meta">
+                    <div class="photo"
+                        style="background-image: url(../images/generador.jpg)">
+                    </div>
+                    <ul class="details">
+                        <li class="author">Fitness</li>
+                        <li class="date">Life</li>
+                    </ul>
+                </div>
+                <div class="description">
+                    <h5 class="h5__cards">Simulador con JavaScript</h5>
+                    <h2>Generador de Rutinas</h2>
+                    <p class="small-text">Desarrollado con HTML5, CSS3, JavaScript y JQuery.</p>
+                    <p class="read-more">
+                        <a href="https://andreaguinder.github.io/generadorderutinas-js-guinderandrea/" target="_blank">Ver sitio</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="blog-card mx-auto">
+                <div class="meta">
+                    <div class="photo"
+                        style="background-image: url(../images/landing.jpg)">
+                    </div>
+                    <ul class="details">
+                        <li class="author">Curriculum</li>
+                        <li class="date">Vitae</li>
+                    </ul>
+                </div>
+                <div class="description">
+                    <h5 class="h5__cards">Landing Page</h5>
+                    <h2>Portfolio DG</h2>
+                    <p class="small-text">"Desarrollo de una landing page Portfolio funcional con los datos de una persona.
+                        HTML5, CSS3 y template."</p>
+                    <p class="read-more">
+                        <a href="https://andreaguinder.github.io/portfolio-simple/" target="_blank">Ver sitio</a>
+                    </p>
+                </div>
+            </div>
+
+                        <div class="blog-card mx-auto">
+                <div class="meta">
+                    <div class="photo"
+                        style="background-image: url(../images/foto-de-inicio-de-alyssa.jpg)">
+                    </div>
+                    <ul class="details">
+                        <li class="author">Alyssa</li>
+                        <li class="date">Cuadros</li>
+                    </ul>
+                </div>
+                <div class="description">
+                    <h5 class="h5__cards">E-commerce</h5>
+                    <h2>React App</h2>
+                    <p class="small-text">E-commerce creada con React JS y luego deployada en Netlify. Desarrollado con React JS, JavaScript, HTML5, CSS3.</p>
+                    <p class="read-more">
+                        <a href="https://ecommerce-react-alyssa-andreaguinder.netlify.app/" target="_blank">Ver sitio</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        </section>
+</main>
+<footer class="contBlur2">
+    <div class="contBlurNegro2">
+    <div>
+        <a target="_blank" class="facebook" href="https://www.facebook.com/profile.php?id=100010447723135"><i class="fab fa-facebook"></i></a>
+        <a target="_blank" class="instagram" href="https://www.instagram.com/andreaguinder/"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/andrea-bel%C3%A9n-guinder-vichich-2a74a8178/"><i class="fab fa-linkedin"></i></a>
+        <a target="_blank" class="github" href="https://github.com/andreaguinder"><i class="fab fa-github"></i></a>
+    </div>
+    <p> Copyright © | 2021 | Todos los Derechos Reservados<br class="hidden-md hidden-lg"/>
+        Diseño y Desarrollo por <a href="https://andreabelenguinder.wixsite.com/misitio" target="_blank">Andrea
+            Guinder</a>
+    </p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+</html>
