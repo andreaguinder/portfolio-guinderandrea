@@ -53,7 +53,7 @@ footer{
     backdrop-filter: blur(0.5rem);
     z-index: 0;
     border: 0.15rem solid rgb(0, 0, 0);
-    box-shadow: 10px 10px 5px rgba(29, 29, 29, 0.247), 0px -10px 5px rgba(32, 32, 32, 0.199);
+    overflow: hidden;
 }
 
 .contBlurNegro2{

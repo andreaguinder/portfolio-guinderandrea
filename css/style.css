@@ -30,6 +30,10 @@ body::-webkit-scrollbar-thumb{
     z-index: 100;
 }
 */
+#bodyIndex {
+  overflow-x: hidden;
+}
+
 .headerEfecto {
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.596);
@@ -146,7 +150,8 @@ header {
   height: 4rem;
   padding: 1rem 0;
   position: relative;
-  box-shadow: 0px 5px 7px 0px rgba(59, 59, 59, 0.75);
+  box-shadow: 0px 5px 7px rgba(59, 59, 59, 0.75);
+  width: auto;
 }
 
 header::after {
@@ -171,7 +176,7 @@ header::after {
 .site__nav {
   top: 100%;
   right: 0%;
-  height: 20rem;
+  height: 17.2rem;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.596);
   -webkit-clip-path: circle(0 at top right);
@@ -1142,7 +1147,7 @@ footer .fab:hover {
           backdrop-filter: blur(0.5rem);
   z-index: 0;
   border: 0.15rem solid rgb(0, 0, 0);
-  box-shadow: 10px 10px 5px rgba(29, 29, 29, 0.247), 0px -10px 5px rgba(32, 32, 32, 0.199);
+  overflow: hidden;
 }
 
 .contBlurNegro2 {

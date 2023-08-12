@@ -2,6 +2,7 @@
     font-family: 'Ubuntu', sans-serif;
     margin: 0%;
     padding: 0%;
+
 }
 @import "variables";
 
@@ -49,7 +50,8 @@ header{
     height: 4rem;
     padding: 1rem 0;
     position: relative;
-    box-shadow: 0px 5px 7px 0px rgba(59, 59, 59, 0.75);
+    box-shadow: 0px 5px 7px rgba(59, 59, 59, 0.75);
+    width: auto;
 }
 
 header::after{
@@ -73,7 +75,7 @@ header::after{
 .site__nav{
     top: 100%;
     right: 0%;
-    height: 20rem;
+    height: 17.2rem;
     position: absolute;
     background-color: $color4;
     clip-path: circle(0 at top right);
