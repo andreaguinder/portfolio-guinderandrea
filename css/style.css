@@ -152,6 +152,7 @@ header {
   position: relative;
   box-shadow: 0px 5px 7px rgba(59, 59, 59, 0.75);
   width: auto;
+  margin-right: 0px !important;
 }
 
 header::after {
@@ -1101,6 +1102,7 @@ footer {
   background-position-x: center;
   width: 100%;
   box-shadow: 0px -5px 7px 0px rgba(59, 59, 59, 0.75);
+  margin-bottom: 0px !important;
 }
 footer div {
   display: flex;
@@ -1108,7 +1110,7 @@ footer div {
   flex-direction: row;
   justify-content: space-around;
   width: 70%;
-  margin: auto;
+  margin: 0px auto 0px !important;
   padding-top: 0.5rem;
 }
 footer div p {
