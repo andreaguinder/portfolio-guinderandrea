@@ -6,6 +6,7 @@ footer{
     width: 100%;
     box-shadow: 0px -5px 7px 0px rgba(59, 59, 59, 0.75);
     margin-bottom: 0px !important;
+    margin-right: 0px !important;
     
     div{
         display: flex;
@@ -13,7 +14,7 @@ footer{
         flex-direction: row;
         justify-content: space-around;
         width: 70%;
-        margin: 0px auto 0px !important;
+        margin: 0px 0px 0px !important;
         padding-top: 0.5rem;
 
         p{
@@ -49,7 +50,7 @@ footer{
     background-size: contain;
     width: 100%;
     height: fit-content;
-    margin: 3rem auto 0rem;
+    margin: 3rem 0rem 0rem;
     position: center;
     backdrop-filter: blur(0.5rem);
     z-index: 0;
@@ -64,6 +65,7 @@ footer{
     position: center;
     background-color: $color4;
     z-index: 0;
+    margin-right: 0px !important;
 }
 
 @media only screen and (min-width:350px) and (max-width: 768px) {
