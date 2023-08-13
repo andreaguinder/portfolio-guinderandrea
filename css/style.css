@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(../images/fondo-nuevo\ \(2\).jpg);
+  background-image: url(../images/fondo-nuevooo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -253,6 +253,7 @@ header::after {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
+  margin-right: 0px !important;
 }
 
 .menu-toggle.menu-abierto {
