@@ -188,6 +188,7 @@ header::after {
   -webkit-backdrop-filter: blur(0.5rem);
           backdrop-filter: blur(0.5rem);
   z-index: 100;
+  margin-right: 0px !important;
 }
 
 .site__navAbrir {
@@ -195,6 +196,7 @@ header::after {
           clip-path: circle(150% at top right);
   height: 17.2rem;
   z-index: 100;
+  margin-right: 0px !important;
 }
 
 .site__nav ul {
@@ -697,6 +699,44 @@ p {
     padding: 0%;
   }
 }
+.otros-proyectos h3 {
+  color: rgb(173, 9, 99);
+  text-align: center !important;
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+.otros-proyectos a {
+  color: rgb(0, 0, 0) !important;
+  text-align: left;
+  padding-left: 0rem;
+}
+.otros-proyectos ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0rem;
+  gap: 2rem;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 599px) {
+  .otros-proyectos ul {
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 2.5rem;
+  }
+  .otros-proyectos h3 {
+    color: rgb(173, 9, 99);
+    text-align: center;
+    font-size: 1rem;
+  }
+  .otros-proyectos a {
+    color: rgb(0, 0, 0) !important;
+    text-align: left;
+  }
+}
 .responsiveImg {
   width: 100%;
 }
@@ -989,7 +1029,7 @@ p {
     height: 15rem;
   }
   #gallery h3 {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -1086,10 +1126,15 @@ p {
   #gallery {
     margin: -2% 2% 5% 2%;
   }
+  .mas-trabajos {
+    font-size: 1rem;
+  }
 }
 .mas-trabajos {
   margin: 0px auto;
   padding: 0rem 2rem;
+  text-align: center;
+  font-size: 0.75rem;
 }
 .mas-trabajos a {
   color: rgb(173, 9, 99);

@@ -83,12 +83,14 @@ header::after{
     transition: clip-path ease-in-out 0.5s;
     backdrop-filter: blur(0.5rem);
     z-index: 100;
+    margin-right: 0px !important;
 }
 
 .site__navAbrir{
     clip-path: circle(150% at top right);
     height: 17.2rem;
     z-index: 100;
+    margin-right: 0px !important;
 }
 
 .site__nav ul{
