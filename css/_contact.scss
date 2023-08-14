@@ -11,7 +11,7 @@ p{
 }
 
 .formularioParrafo {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
 }
 
 .formularioButton {
@@ -21,7 +21,7 @@ p{
 }
 .form__contact{
     color: $color3;
-    backdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(0.1rem);
     background-color: $color4;
     border-radius: 5px;
     margin-top: 0%; 
@@ -105,7 +105,7 @@ p{
 
 .formulario__entrada,
 .form__elegir{
-    font-size: 0.75rem;
+    font-size: 0.85rem;
 }
 
 .formulario__entrada{

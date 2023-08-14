@@ -267,8 +267,9 @@ div.menu-hamburguesa{
 .btnPink{
     background-color: $color1;
     color: $color3;
-    padding: 0.2rem 0.75rem;
-    border-radius: 0.25rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
 }
 
 .btnPink:hover{
@@ -295,4 +296,13 @@ div.menu-hamburguesa{
         margin-left: 0.75rem;
     }
 
+    .btnPink{
+        padding: 0.75rem 1.25rem;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .formularioButton {
+        justify-content: flex-start;
+    }
 }

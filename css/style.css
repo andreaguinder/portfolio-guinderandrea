@@ -364,8 +364,9 @@ div.menu-hamburguesa {
 .btnPink {
   background-color: rgb(255, 111, 212);
   color: rgb(255, 255, 255);
-  padding: 0.2rem 0.75rem;
-  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
 }
 
 .btnPink:hover {
@@ -386,7 +387,7 @@ p {
 }
 
 .formularioParrafo {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 .formularioButton {
@@ -397,8 +398,8 @@ p {
 
 .form__contact {
   color: rgb(255, 255, 255);
-  -webkit-backdrop-filter: blur(0.5rem);
-          backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.1rem);
+          backdrop-filter: blur(0.1rem);
   background-color: rgba(0, 0, 0, 0.596);
   border-radius: 5px;
   margin-top: 0%;
@@ -475,7 +476,7 @@ p {
 
 .formulario__entrada,
 .form__elegir {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 .formulario__entrada {
@@ -590,8 +591,8 @@ p {
   height: fit-content;
   margin: 3rem auto;
   position: center;
-  -webkit-backdrop-filter: blur(0.8rem);
-          backdrop-filter: blur(0.8rem);
+  -webkit-backdrop-filter: blur(0.1rem);
+          backdrop-filter: blur(0.1rem);
   z-index: 0;
   border-radius: 0.25rem;
   border: 0.15rem solid rgb(255, 255, 255);
@@ -946,8 +947,8 @@ p {
   min-width: 100%;
   border: 0.15rem solid rgb(255, 255, 255);
   border-radius: 0.2rem;
-  -webkit-backdrop-filter: blur(0.15rem);
-          backdrop-filter: blur(0.15rem);
+  -webkit-backdrop-filter: blur(0.1rem);
+          backdrop-filter: blur(0.1rem);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1225,5 +1226,13 @@ footer .fab:hover {
     padding: 0;
     margin-top: 1.6rem;
     margin-left: 0.75rem;
+  }
+  .btnPink {
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  .formularioButton {
+    justify-content: flex-start;
   }
 }/*# sourceMappingURL=style.css.map */
