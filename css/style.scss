@@ -12,10 +12,6 @@ body{
     background-position: center;   
     background-repeat: no-repeat;
     overflow-y: scroll;
-    overflow-x: hidden !important;
-    display: block !important;
-    max-width: 100vw !important;
-    max-height: 100vh !important;
 }
 /*
 body::-webkit-scrollbar{
@@ -41,7 +37,7 @@ body::-webkit-scrollbar-thumb{
 
 .container-nav{
     width: 95%;
-    max-width: 60rem;
+    // max-width: 60rem;
     margin: 0 auto;
 }
 
