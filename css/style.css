@@ -634,8 +634,8 @@ p {
   height: fit-content;
   margin: 3rem auto;
   position: center;
-  -webkit-backdrop-filter: blur(0.1rem);
-          backdrop-filter: blur(0.1rem);
+  -webkit-backdrop-filter: blur(0.4rem);
+          backdrop-filter: blur(0.4rem);
   z-index: 0;
   border-radius: 0.25rem;
   border: 0.15rem solid rgb(255, 255, 255);
@@ -650,6 +650,7 @@ p {
   height: -moz-fit-content;
   height: fit-content;
   position: center;
+  border-radius: 0.25rem;
 }
 
 .containerSobreMi1 {

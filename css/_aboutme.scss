@@ -3,7 +3,7 @@
     height: fit-content;
     margin: 3rem auto;
     position: center;
-    backdrop-filter: blur(0.10rem);
+    backdrop-filter: blur(0.4rem);
     z-index: 0;
     border-radius: 0.25rem;
     border: 0.15rem solid $color3;
@@ -16,6 +16,7 @@
     width: 100%;
     height: fit-content;
     position: center;
+    border-radius: 0.25rem;
 }
 
 .containerSobreMi1{
