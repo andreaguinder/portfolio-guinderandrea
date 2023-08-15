@@ -6,7 +6,6 @@
 }
 
 body {
-  background-image: url(../images/fondo-nuevooo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -145,7 +144,6 @@ body::-webkit-scrollbar-thumb{
 }
 
 header {
-  background-image: url(../images/imagen-nuevo-header.jpg);
   background-position-x: center;
   background-position-y: bottom;
   border: 1px solid rgb(0, 0, 0);
