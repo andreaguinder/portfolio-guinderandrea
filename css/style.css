@@ -746,6 +746,9 @@ p {
     padding: 0%;
   }
 }
+.otros-proyectos li::marker {
+  color: rgb(255, 111, 212);
+}
 .otros-proyectos h3 {
   color: rgb(173, 9, 99);
   text-align: center !important;

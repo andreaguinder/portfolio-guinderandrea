@@ -1,5 +1,8 @@
 .otros-proyectos{
 
+    li::marker {
+        color: $color1;
+    }
 
     h3{
         color: rgb(173, 9, 99);
