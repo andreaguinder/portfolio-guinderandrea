@@ -31,6 +31,9 @@ body::-webkit-scrollbar-thumb {
 #bodyIndex {
   overflow-x: hidden;
 }
+#bodyIndex .mockup-web {
+  width: 40%;
+}
 
 .headerEfecto {
   color: rgb(255, 255, 255);
