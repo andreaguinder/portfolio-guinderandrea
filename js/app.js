@@ -6,3 +6,4 @@ function cambiarClaseMenu(){
     let menuAbierto = document.getElementById("menu-toggle");
         menuAbierto.classList.toggle("menu-abierto");
     }
+

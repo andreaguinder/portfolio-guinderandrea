@@ -16,6 +16,17 @@
     display: flex;
 }
 
+.hidden-xs {
+    display: none;
+}
+.flex-design,
+.flex-web {
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+}
 .contBlur{
     background-size: contain;
     width: 95%;
@@ -61,6 +72,7 @@
     text-align: center;
     animation-duration: 2s;
     align-content: space-around;
+
                 i{
                     justify-content: space-evenly;
                     font-size: 2rem;
@@ -87,8 +99,12 @@
 
 }
 
+
 @media only screen and (min-width: 767px){
 
+    .hidden-xs {
+        display: block;
+    }
     .heroIndex {
         width: 20%;
     }

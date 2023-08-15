@@ -48,6 +48,27 @@ body::-webkit-scrollbar-thumb{
   display: flex;
 }
 
+.hidden-xs {
+  display: none;
+}
+
+.flex-design,
+.flex-web {
+  -webkit-animation: fadeIn 1.5s ease;
+          animation: fadeIn 1.5s ease;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+}
 .contBlur {
   background-size: contain;
   width: 95%;
@@ -127,6 +148,9 @@ body::-webkit-scrollbar-thumb{
 }
 
 @media only screen and (min-width: 767px) {
+  .hidden-xs {
+    display: block;
+  }
   .heroIndex {
     width: 20%;
   }
@@ -637,6 +661,8 @@ p {
 .flex__sobremi--hijo img {
   background-size: contain;
   width: 100%;
+  -webkit-animation: fadeIn 1.5s ease;
+          animation: fadeIn 1.5s ease;
 }
 .flex__sobremi--hijo .contFotoMia {
   height: 100%;
