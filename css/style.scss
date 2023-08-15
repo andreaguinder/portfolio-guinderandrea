@@ -60,6 +60,11 @@ header::after{
     display: block;
 }
 
+#nombreAndy a {
+ color: $color3;
+ text-decoration: none;
+}
+
 .logo{
     float: left;
     margin-top: -0.75rem;

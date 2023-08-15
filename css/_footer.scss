@@ -68,6 +68,8 @@ footer{
     background-color: $color4;
     z-index: 0;
     margin-right: 0px !important;
+    border: 0.15rem solid rgb(0, 0, 0);
+    margin-bottom: 0px !important;
 }
 
 @media only screen and (min-width:350px) and (max-width: 768px) {

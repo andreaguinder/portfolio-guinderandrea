@@ -47,6 +47,10 @@ body::-webkit-scrollbar-thumb {
   display: flex;
 }
 
+.link-inicio a {
+  text-decoration: none;
+}
+
 .hidden-xs {
   display: none;
 }
@@ -181,6 +185,11 @@ header::after {
   content: "";
   clear: both;
   display: block;
+}
+
+#nombreAndy a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .logo {
@@ -1009,6 +1018,7 @@ p {
   display: grid;
   grid-column-gap: 0.3rem;
   grid-row-gap: 0.3rem;
+  gap: 1rem;
 }
 
 /*----------Galería con GRID: Items con imágenes----------*/
@@ -1283,6 +1293,8 @@ footer .fab:hover {
   background-color: rgba(0, 0, 0, 0.596);
   z-index: 0;
   margin-right: 0px !important;
+  border: 0.15rem solid rgb(0, 0, 0);
+  margin-bottom: 0px !important;
 }
 
 @media only screen and (min-width: 350px) and (max-width: 768px) {
