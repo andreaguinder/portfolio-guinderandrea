@@ -87,7 +87,7 @@ header::after{
 
 .site__navAbrir{
     clip-path: circle(150% at top right);
-    height: 17.2rem;
+    height: fit-content;
     z-index: 100;
     margin-right: 0px !important;
 }
@@ -98,6 +98,7 @@ header::after{
     list-style: none;
     width: 12rem;
     margin-bottom: 0px !important;
+    height: fit-content;
 }
 
 .site__nav li{

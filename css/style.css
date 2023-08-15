@@ -217,7 +217,9 @@ header::after {
 .site__navAbrir {
   -webkit-clip-path: circle(150% at top right);
           clip-path: circle(150% at top right);
-  height: 17.2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   z-index: 100;
   margin-right: 0px !important;
 }
@@ -228,6 +230,9 @@ header::after {
   list-style: none;
   width: 12rem;
   margin-bottom: 0px !important;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .site__nav li {
