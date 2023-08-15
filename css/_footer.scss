@@ -47,8 +47,9 @@ footer{
 }
 
 .contBlur2{
-    background-size: contain;
+    background-size: cover;
     width: 100%;
+    max-width: 100% !important;
     height: fit-content;
     margin: 3rem 0rem 0rem;
     position: center;

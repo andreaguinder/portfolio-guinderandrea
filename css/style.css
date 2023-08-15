@@ -12,7 +12,8 @@ body {
   background-repeat: no-repeat;
   overflow-y: scroll;
   overflow-x: hidden !important;
-  max-height: 100vh !important;
+  display: block !important;
+  max-width: 100vw;
 }
 
 /*
@@ -1187,8 +1188,9 @@ footer .fab:hover {
 }
 
 .contBlur2 {
-  background-size: contain;
+  background-size: cover;
   width: 100%;
+  max-width: 100% !important;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
