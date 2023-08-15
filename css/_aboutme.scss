@@ -81,6 +81,9 @@
     color: $color6;
     text-align: left;
 
+    li::marker{
+        color: $color1;
+    }
 }
 
 #logosSobreMi{

@@ -95,9 +95,9 @@ header::after{
 .site__nav ul{
     padding-top: 0%;
     padding-left: 2%;
-    padding-bottom: 5%;
     list-style: none;
     width: 12rem;
+    margin-bottom: 0px !important;
 }
 
 .site__nav li{
@@ -200,6 +200,7 @@ div.menu-hamburguesa{
         justify-content: center;
         align-items: center;
         margin: auto;
+        animation: fadeIn 1.5s ease;
     }
     .logo h1 {
         font-size: 0.5rem;

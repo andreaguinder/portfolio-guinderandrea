@@ -93,6 +93,15 @@
     background-image: url(../images/otras/veroypablo.png);
 }
 
+.item10 {
+    grid-area: "item9";
+    background-image: url(../images/otras/magic-clip.png);
+}
+
+.item11 {
+    grid-area: "item9";
+    background-image: url(../images/otras/tarjetas-comerciales.png);
+}
 @media only screen and (min-width: 360px) and (max-width: 599px) {
 
     .grid-container {
@@ -150,7 +159,8 @@
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 2;
+        grid-row-end: 2;
     }
 
     .item3 {
@@ -164,8 +174,9 @@
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 3;
-        grid-row-end: 5;
+        grid-row-end: 4;
     }
+
 
     #gallery{
         margin: -5% 2% 5% 2%;
@@ -210,18 +221,33 @@
     }
 
     .item8 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
     }
 
     .item9 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .item10 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .item11 {
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
     }
+
         
     #gallery{
         margin: -2% 2% 5% 2%;
@@ -231,17 +257,28 @@
     .mas-trabajos {
         font-size: 1rem;
     }
+
+    .mas-trabajos-aclaracion {
+        font-size: 0.5rem;
+    }
     
 }
 
 .mas-trabajos {
     margin: 0px auto;
     padding: 0rem 2rem;
-    text-align: center;
+    text-align: left;
     font-size: 0.75rem;
 
     a{
 
         color: $color2;
     }
+}
+
+.mas-trabajos-aclaracion {
+    color: $color6;
+    margin: 0px auto;
+    padding: 0.25rem 2rem;
+    font-size: 0.65rem;
 }

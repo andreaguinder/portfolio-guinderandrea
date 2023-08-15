@@ -225,9 +225,9 @@ header::after {
 .site__nav ul {
   padding-top: 0%;
   padding-left: 2%;
-  padding-bottom: 5%;
   list-style: none;
   width: 12rem;
+  margin-bottom: 0px !important;
 }
 
 .site__nav li {
@@ -329,6 +329,8 @@ div.menu-hamburguesa {
     justify-content: center;
     align-items: center;
     margin: auto;
+    -webkit-animation: fadeIn 1.5s ease;
+            animation: fadeIn 1.5s ease;
   }
   .logo h1 {
     font-size: 0.5rem;
@@ -698,6 +700,9 @@ p {
   color: rgb(0, 0, 0);
   text-align: left;
 }
+.flex__sobremi--hijo ul li::marker {
+  color: rgb(255, 111, 212);
+}
 
 #logosSobreMi {
   height: 100%;
@@ -753,6 +758,9 @@ p {
     justify-content: center;
     align-items: flex-start;
     margin-left: 2.5rem;
+  }
+  .otros-proyectos li::marker {
+    color: rgb(255, 111, 212);
   }
   .otros-proyectos h3 {
     color: rgb(173, 9, 99);
@@ -1045,6 +1053,16 @@ p {
   background-image: url(../images/otras/veroypablo.png);
 }
 
+.item10 {
+  grid-area: "item9";
+  background-image: url(../images/otras/magic-clip.png);
+}
+
+.item11 {
+  grid-area: "item9";
+  background-image: url(../images/otras/tarjetas-comerciales.png);
+}
+
 @media only screen and (min-width: 360px) and (max-width: 599px) {
   .grid-container {
     grid-template-columns: 1fr;
@@ -1090,7 +1108,8 @@ p {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
+    grid-row-end: 2;
   }
   .item3 {
     grid-column-start: 2;
@@ -1102,7 +1121,7 @@ p {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-end: 4;
   }
   #gallery {
     margin: -5% 2% 5% 2%;
@@ -1139,16 +1158,28 @@ p {
     grid-row-end: 2;
   }
   .item8 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
   .item9 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .item10 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .item11 {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
   #gallery {
     margin: -2% 2% 5% 2%;
@@ -1156,15 +1187,25 @@ p {
   .mas-trabajos {
     font-size: 1rem;
   }
+  .mas-trabajos-aclaracion {
+    font-size: 0.5rem;
+  }
 }
 .mas-trabajos {
   margin: 0px auto;
   padding: 0rem 2rem;
-  text-align: center;
+  text-align: left;
   font-size: 0.75rem;
 }
 .mas-trabajos a {
   color: rgb(173, 9, 99);
+}
+
+.mas-trabajos-aclaracion {
+  color: rgb(0, 0, 0);
+  margin: 0px auto;
+  padding: 0.25rem 2rem;
+  font-size: 0.65rem;
 }
 
 footer {

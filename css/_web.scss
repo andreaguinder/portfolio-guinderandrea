@@ -36,6 +36,9 @@
                 margin-left: 2.5rem;
             }
         
+            li::marker {
+                color: $color1;
+            }
         
         h3 {
             color: $color2;
