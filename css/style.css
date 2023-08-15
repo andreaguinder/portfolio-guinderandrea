@@ -1092,6 +1092,9 @@ p {
   #gallery h3 {
     font-size: 0.85rem;
   }
+  .masTrabajos {
+    flex-direction: column;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .grid-container {
@@ -1106,6 +1109,9 @@ p {
   .item9 {
     grid-column-start: 1;
     grid-column-end: 3;
+  }
+  .masTrabajos {
+    flex-direction: column;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
@@ -1207,6 +1213,11 @@ p {
     font-size: 0.5rem;
   }
 }
+.masTrabajos {
+  display: flex;
+  justify-content: center;
+}
+
 .mas-trabajos {
   margin: 0px auto;
   padding: 0rem 2rem;

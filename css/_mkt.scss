@@ -121,6 +121,9 @@
         font-size: 0.85rem;
     }
 
+    .masTrabajos {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -139,6 +142,10 @@
     .item9{
     grid-column-start: 1;
     grid-column-end: 3;
+    }
+
+    .masTrabajos {
+        flex-direction: column;
     }
 }
 
@@ -263,6 +270,11 @@
         font-size: 0.5rem;
     }
     
+}
+
+.masTrabajos {
+    display: flex;
+    justify-content: center;
 }
 
 .mas-trabajos {
