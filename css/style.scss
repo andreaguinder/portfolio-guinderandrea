@@ -13,6 +13,7 @@ body{
     background-repeat: no-repeat;
     overflow-y: scroll;
     overflow-x: hidden !important;
+    max-height: 100vh !important;
 }
 /*
 body::-webkit-scrollbar{
