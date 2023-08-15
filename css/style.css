@@ -13,22 +13,21 @@ body {
   overflow-y: scroll;
 }
 
-/*
-body::-webkit-scrollbar{
-    width: 0.5rem;
-    background-color: $color4;
-    border-radius: 3rem;
-    position: absolute;
+body::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.596);
+  border-radius: 3rem;
+  position: absolute;
 }
 
-body::-webkit-scrollbar-thumb{
-    background-color: $color4;
-    height: 2rem;
-    border-radius: 3rem;
-    position: absolute;
-    z-index: 100;
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.596);
+  height: 2rem;
+  border-radius: 3rem;
+  position: absolute;
+  z-index: 100;
 }
-*/
+
 #bodyIndex {
   overflow-x: hidden;
 }
@@ -200,7 +199,9 @@ header::after {
 .site__nav {
   top: 100%;
   right: 0%;
-  height: 17.2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.596);
   -webkit-clip-path: circle(0 at top right);

@@ -13,7 +13,7 @@ body{
     background-repeat: no-repeat;
     overflow-y: scroll;
 }
-/*
+
 body::-webkit-scrollbar{
     width: 0.5rem;
     background-color: $color4;
@@ -28,7 +28,7 @@ body::-webkit-scrollbar-thumb{
     position: absolute;
     z-index: 100;
 }
-*/
+
 @import "index";
 
 .mainSpace{
@@ -75,7 +75,7 @@ header::after{
 .site__nav{
     top: 100%;
     right: 0%;
-    height: 17.2rem;
+    height: fit-content;
     position: absolute;
     background-color: $color4;
     clip-path: circle(0 at top right);
