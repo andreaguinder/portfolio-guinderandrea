@@ -15,13 +15,13 @@ body {
 
 body::-webkit-scrollbar {
   width: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.685);
   border-radius: 3rem;
   position: absolute;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.685);
   height: 2rem;
   border-radius: 3rem;
   position: absolute;
@@ -36,8 +36,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .headerEfecto {
-  color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.596);
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.685);
   width: 100%;
 }
 
@@ -89,7 +89,7 @@ body::-webkit-scrollbar-thumb {
   height: -moz-fit-content;
   height: fit-content;
   position: center;
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.685);
   z-index: 0;
   border-radius: 0.25rem;
 }
@@ -133,7 +133,7 @@ body::-webkit-scrollbar-thumb {
 }
 .flex__servicios--hijo p {
   text-align: left;
-  color: rgba(0, 0, 0, 0.596);
+  color: rgba(0, 0, 0, 0.685);
   font-size: 14px;
 }
 .flex__servicios--hijo .pinkLine {
@@ -180,7 +180,7 @@ header::after {
 }
 
 #nombreAndy a {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -191,7 +191,7 @@ header::after {
 }
 
 .logo h1 {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 1rem;
   margin-left: 0.25rem;
   margin-top: 1.2rem;
@@ -203,7 +203,7 @@ header::after {
   height: -moz-fit-content;
   height: fit-content;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.685);
   -webkit-clip-path: circle(0 at top right);
           clip-path: circle(0 at top right);
   transition: -webkit-clip-path ease-in-out 0.5s;
@@ -235,7 +235,7 @@ header::after {
 }
 
 .site__nav li {
-  border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid #ffffff;
 }
 
 .site__nav li:last-child {
@@ -243,7 +243,7 @@ header::after {
 }
 
 .site__nav a {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   display: block;
   padding: 1rem 1rem;
   text-transform: uppercase;
@@ -257,7 +257,7 @@ header::after {
 }
 
 .site__nav a:focus {
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.685);
   border: 1px solid rgb(255, 255, 255);
   color: rgb(255, 111, 212);
 }
@@ -310,7 +310,7 @@ div.menu-hamburguesa {
 .menu-hamburguesa::after {
   content: "";
   display: block;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   height: 0.25rem;
   width: 1.5rem;
   border-radius: 0.5rem;
@@ -399,7 +399,7 @@ div.menu-hamburguesa {
 }
 .btnPink {
   background-color: rgb(255, 111, 212);
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   font-size: 1rem;
@@ -407,7 +407,7 @@ div.menu-hamburguesa {
 
 .btnPink:hover {
   background-color: rgb(173, 9, 99);
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 h4 {
@@ -415,7 +415,7 @@ h4 {
 }
 
 p {
-  color: rgba(0, 0, 0, 0.596);
+  color: rgba(0, 0, 0, 0.685);
 }
 
 .formularioh4 {
@@ -433,10 +433,8 @@ p {
 }
 
 .form__contact {
-  color: rgb(255, 255, 255);
-  -webkit-backdrop-filter: blur(0.1rem);
-          backdrop-filter: blur(0.1rem);
-  background-color: rgba(0, 0, 0, 0.596);
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.685);
   border-radius: 5px;
   margin-top: 0%;
   margin-left: 5%;
@@ -455,7 +453,7 @@ p {
 .modalContainer {
   height: 100vh;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.685);
   background-size: contain;
   position: fixed;
   top: 0;
@@ -476,7 +474,7 @@ p {
 
 .modalForm {
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   background-size: contain;
   width: 70%;
   border-radius: 0.5rem;
@@ -525,7 +523,7 @@ p {
 
 .formulario__input {
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border: 0.25rem solid transparent;
   border-radius: 0.35rem;
   height: 2.5rem;
@@ -536,7 +534,7 @@ p {
 
 .formulario__input--mensaje {
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border: 0.25rem solid transparent;
   border-radius: 0.35rem;
   height: 5rem;
@@ -559,7 +557,7 @@ p {
   font-size: 0.75rem;
   margin-bottom: 0;
   display: none;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .formulario__input-error-activo {
@@ -585,7 +583,7 @@ p {
   padding: 0 15px;
   border-radius: 3px;
   display: none;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .formulario__mensaje-activo {
@@ -617,7 +615,7 @@ p {
 
 .recibir__novedades:focus {
   background-color: rgb(255, 111, 212);
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .contBlurSobre {
@@ -630,12 +628,12 @@ p {
           backdrop-filter: blur(0.4rem);
   z-index: 0;
   border-radius: 0.25rem;
-  border: 0.15rem solid rgb(255, 255, 255);
+  border: 0.15rem solid #ffffff;
   box-shadow: 10px 10px 5px rgba(29, 29, 29, 0.247), 0px -10px 5px rgba(32, 32, 32, 0.199);
 }
 
 .containerSobreMi {
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.685);
   background-size: contain;
   width: 100%;
   height: -moz-fit-content;
@@ -716,8 +714,6 @@ p {
   flex-basis: 100%;
   justify-content: space-around;
   padding: 10%;
-  -webkit-backdrop-filter: blur(0.5rem);
-          backdrop-filter: blur(0.5rem);
   border: 2px solid rgb(255, 255, 255);
   border-radius: 0.25rem;
   align-items: center;
@@ -820,7 +816,7 @@ p {
   padding-left: 0;
   display: flex;
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   line-height: 1.4;
   border-radius: 5px;
   overflow: hidden;
@@ -872,7 +868,7 @@ p {
 }
 .blog-card .description {
   padding: 1rem;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   position: relative;
   z-index: 1;
 }
@@ -939,7 +935,7 @@ p {
   .blog-card .description:before {
     transform: skewX(-3deg);
     content: "";
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     width: 30px;
     position: absolute;
     left: -10px;
@@ -1802,8 +1798,8 @@ p {
 }
 
 footer {
-  color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.596);
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.685);
   background-size: cover;
   background-position-x: center;
   width: 100%;
@@ -1824,14 +1820,14 @@ footer div {
 footer div p {
   text-align: center;
   align-content: space-around;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 0.5rem;
   padding: 0.25rem 0.5rem 0rem;
   margin-right: 1rem;
 }
 footer div p a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 footer div p a:hover {
   color: rgb(255, 131, 199);
@@ -1866,7 +1862,7 @@ footer .fab:hover {
   height: -moz-fit-content;
   height: fit-content;
   position: center;
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.685);
   z-index: 0;
   margin-right: 0px !important;
   border: 0.15rem solid rgb(0, 0, 0);
