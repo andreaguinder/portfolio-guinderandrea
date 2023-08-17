@@ -437,7 +437,7 @@ p {
   background-color: rgba(0, 0, 0, 0.685);
   border-radius: 5px;
   margin: 2rem auto 5rem;
-  width: 15rem;
+  width: 16rem;
   box-shadow: 0px 5px 5px rgba(29, 29, 29, 0.377), 0px -5px 5px rgba(32, 32, 32, 0.329);
 }
 .form__contact i {
