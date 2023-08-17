@@ -1,8 +1,12 @@
 @import "variables";
 
+#cards-clientes .row{
+    margin: auto;
+    justify-content: center;
+}
 .blog-card {
-    height: 260px;
-    width: 312px;
+    height: 150px;
+    width: 250px;
     padding-left: 0;
     display: flex;
     box-shadow: 0 3px 7px -1px rgba($color6, .1);
@@ -51,7 +55,7 @@
         color: $color1;
         padding: 10px;
         width: 100%;
-        font-size: 0.9rem;
+        font-size: 0.75rem;
 
         a {
             text-decoration: none;
@@ -94,6 +98,7 @@
                 color: $color1;
                 display: inline-block;
                 position: relative;
+                font-size: 0.80rem;
 
                 &:after {
                     margin-left: -10px;
@@ -136,8 +141,10 @@
     @media (min-width: 360px) {
         flex-direction: row;
 
+
+
         .meta {
-            flex-basis: 40%;
+            flex-basis: 52%;
             height: auto;
         }
 
@@ -184,4 +191,10 @@
     color: $color1;
     font-weight: 600;
     font-size: 1rem;
+}
+
+@media only screen and (min-width: 767px) {
+    .blog-card {
+        height: 200px;
+    }
 }

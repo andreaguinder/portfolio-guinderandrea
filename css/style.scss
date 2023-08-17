@@ -199,9 +199,16 @@ div.menu-hamburguesa{
     transform: translateY(0.35rem); //0.25rem
 }
 
+.mainSpace .mockup-web{
+    width: 90%;
+    justify-content: center;
+    margin: 0px auto 2rem;
+    display: flex;
+    animation: fadeIn 1.5s ease;
+}
 @media only screen and (min-width: 767px){
     .mainSpace .mockup-web{
-        width: 40%;
+        width: 45%;
         display: flex;
         justify-content: center;
         align-items: center;

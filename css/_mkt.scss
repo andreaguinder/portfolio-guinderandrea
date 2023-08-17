@@ -1,3 +1,12 @@
+// Otros diseños empresas
+
+.empresas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
 
 /*--------------Productos: Galería con GRID: Info general-------------*/
 /*--------------Productos: Galería con GRID: Info general-------------*/
@@ -18,7 +27,7 @@
 .grid-item {
     min-height: auto;
     min-width: 100%;
-    border: 0.15rem solid $color3;
+//    border: 0.15rem solid $color3;
     border-radius: 0.2rem;
     backdrop-filter: blur(0.1rem);
     background-size: contain;
@@ -34,7 +43,8 @@
     box-shadow: 5px 5px 5px 1px rgba(43, 42, 42, 0.774);
 }
 
-.grid-container {
+.grid-container,
+.grid-container2 {
     width: 95%;
     margin: auto;
     height: auto;
@@ -45,67 +55,296 @@
     gap: 1rem;
 }
 
+.volverDesign a{
+    color: $color1;
+    font-size: 1rem;
+}
+
+.volverDesign a:hover,
+.volverDesign a:active{
+    color: $color2;
+}
 /*----------Galería con GRID: Items con imágenes----------*/
 /*----------Galería con GRID: Items con imágenes----------*/
 /*----------Galería con GRID: Items con imágenes----------*/
 
+// esteticas
 .item1 {
     grid-area: "item1";
-    background-image: url(../images/otras/banner-guillemieri.png);
+    background-image: url(../images/design/esteticas/esteticas.jpg);
 }
 
 .item2 {
     grid-area: "item2";
-    background-image: url(../images/otras/banner-hf.png);
+    background-image: url(../images/design/esteticas/noviembre-adara.png);
 }
 
 .item3 {
     grid-area: "item3";
-    background-image: url(../images/mkt/tarjetas-comerciales.png);
+    background-image: url(../images/design/esteticas/alqu2.jpg);
 }
 
 .item4 {
     grid-area: "item4";
-    background-image: url(../images/otras/caraatula-maf.png);
+    background-image: url(../images/design/esteticas/alqu3.jpg);
 }
 
 .item5 {
     grid-area: "item5";
-    background-image: url(../images/otras/banner-hf2.png);
+    background-image: url(../images/design/esteticas/alqu4.jpg);
 }
 
 .item6 {
     grid-area: "item6";
-    background-image: url(../images/otras/pases-vip-desfile.png);
+    background-image: url(../images/design/esteticas/alqu5.jpg);
 }
 
 .item7 {
     grid-area: "item7";
-    background-image: url(../images/mkt/mockup-dvd.png);
+    background-image: url(../images/design/esteticas/septiembre.png);
 }
 
 .item8 {
     grid-area: "item8";
-    background-image: url(../images/otras/tapa-cosmeprof.png);
+    background-image: url(../images/design/esteticas/logo-mob.png);
 }
 
 .item9 {
     grid-area: "item9";
-    background-image: url(../images/otras/veroypablo.png);
+    background-image: url(../images/design/esteticas/thermobike.png);
 }
 
 .item10 {
-    grid-area: "item9";
-    background-image: url(../images/otras/magic-clip.png);
+    grid-area: "item10";
+    background-image: url(../images/design/esteticas/feed-junio-adara.png);
 }
 
 .item11 {
-    grid-area: "item9";
-    background-image: url(../images/otras/tarjetas-comerciales.png);
+    grid-area: "item11";
+    background-image: url(../images/design/esteticas/septiembre2.png);
 }
+
+// end esteticas
+
+// mamamotos
+
+.itemMama1 {
+    grid-area: "itemMama1";
+    background-image: url(../images/design/mamamotos/banner-des1.jpg);
+}
+
+.itemMama2 {
+    grid-area: "itemMama2";
+    background-image: url(../images/design/mamamotos/caraatula-maf.png);
+}
+
+.itemMama3 {
+    grid-area: "itemMama3";
+    background-image: url(../images/design/mamamotos/tapa-nayasa.jpg);
+}
+
+.itemMama4 {
+    grid-area: "itemMama4";
+    background-image: url(../images/design/mamamotos/banner-des2.jpg);
+}
+
+.itemMama5 {
+    grid-area: "itemMama5";
+    background-image: url(../images/design/mamamotos/banner-hf.png);
+}
+
+.itemMama6 {
+    grid-area: "itemMama6";
+    background-image: url(../images/design/mamamotos/banner-hf2.png);
+}
+
+.itemMama7 {
+    grid-area: "itemMama7";
+    background-image: url(../images/design/mamamotos/banner-des3.jpg);
+}
+
+.itemMama8 {
+    grid-area: "itemMama8";
+    background-image: url(../images/design/mamamotos/1.jpg);
+}
+
+.itemMama9 {
+    grid-area: "itemMama9";
+    background-image: url(../images/design/mamamotos/8.jpg);
+}
+
+
+// end mamamotos
+
+
+//cosmeprof
+
+.itemCosme1 {
+    grid-area: "itemCosme1";
+    background-image: url(../images/design/cosmeprof/cosmeprof.jpg);
+}
+
+.itemCosme2 {
+    grid-area: "itemCosme2";
+    background-image: url(../images/design/cosmeprof/profoil2.jpg);
+}
+
+.itemCosme3 {
+    grid-area: "itemCosme3";
+    background-image: url(../images/design/cosmeprof/buclera1.png);
+}
+
+.itemCosme4 {
+    grid-area: "itemCosme4";
+    background-image: url(../images/design/cosmeprof/buclera2.png);
+}
+
+.itemCosme5 {
+    grid-area: "itemCosme5";
+    background-image: url(../images/design/cosmeprof/legend.jpg);
+}
+
+.itemCosme6 {
+    grid-area: "itemCosme6";
+    background-image: url(../images/design/cosmeprof/legend2.jpg);
+}
+
+.itemCosme7 {
+    grid-area: "itemCosme7";
+    background-image: url(../images/design/cosmeprof/magic-clip.png);
+}
+
+.itemCosme8 {
+    grid-area: "itemCosme8";
+    background-image: url(../images/design/cosmeprof/brillooro.jpg);
+}
+
+.itemCosme9 {
+    grid-area: "itemCosme9";
+    background-image: url(../images/design/cosmeprof/babyliss-maquina.jpg);
+}
+
+.itemCosme10 {
+    grid-area: "itemCosme10";
+    background-image: url(../images/design/cosmeprof/babyliss-maquina2.jpg);
+}
+
+.itemCosme11 {
+    grid-area: "itemCosme11";
+    background-image: url(../images/design/cosmeprof/htrulos.jpg);
+}
+
+.itemCosme12 {
+    grid-area: "itemCosme12";
+    background-image: url(../images/design/cosmeprof/therealbrazilian.png);
+}
+
+.itemCosme13 {
+    grid-area: "itemCosme13";
+    background-image: url(../images/design/cosmeprof/ht-ampollas.png);
+}
+
+.itemCosme14 {
+    grid-area: "itemCosme14";
+    background-image: url(../images/design/cosmeprof/protectorossono.jpg);
+}
+
+.itemCosme15 {
+    grid-area: "itemCosme15";
+    background-image: url(../images/design/cosmeprof/ht-silver.png);
+}
+
+.itemCosme16 {
+    grid-area: "itemCosme16";
+    background-image: url(../images/design/cosmeprof/profoil.jpg);
+}
+
+.itemCosme17 {
+    grid-area: "itemCosme17";
+    background-image: url(../images/design/cosmeprof/therealbrazilian2.png);
+}
+
+.itemCosme18 {
+    grid-area: "itemCosme18";
+    background-image: url(../images/design/cosmeprof/finale2.jpg);
+}
+
+.itemCosme19 {
+    grid-area: "itemCosme19";
+    background-image: url(../images/design/cosmeprof/socorro.jpg);
+}
+
+.itemCosme20 {
+    grid-area: "itemCosme20";
+    background-image: url(../images/design/cosmeprof/detailer.png);
+}
+
+// end cosmeprof
+
+//life
+
+.itemLife1 {
+    grid-area: "itemLife1";
+    background-image: url(../images/design/life/life.jpg);
+}
+
+.itemLife2 {
+    grid-area: "itemLife2";
+    background-image: url(../images/design/life/tarjetas-comerciales.png);
+}
+
+.itemLife3 {
+    grid-area: "itemLife3";
+    background-image: url(../images/design/life/banner-guillemieri.png);
+}
+
+.itemLife4 {
+    grid-area: "itemLife4";
+    background-image: url(../images/design/life/editorial5.png);
+}
+
+.itemLife5 {
+    grid-area: "itemLife5";
+    background-image: url(../images/design/life/certificado.jpg);
+}
+
+.itemLife6 {
+    grid-area: "itemLife6";
+    background-image: url(../images/design/life/veroypablo.png);
+}
+
+.itemLife7 {
+    grid-area: "itemLife7";
+    background-image: url(../images/design/life/editorial3.png);
+}
+
+.itemLife8 {
+    grid-area: "itemLife8";
+    background-image: url(../images/design/life/editorial6.png);
+}
+
+.itemLife9 {
+    grid-area: "itemLife9";
+    background-image: url(../images/design/life/dojo-boxeo.png);
+}
+
+.itemLife10 {
+    grid-area: "itemLife10";
+    background-image: url(../images/design/life/logo-djeypy.png);
+}
+
+// end life
 @media only screen and (min-width: 360px) and (max-width: 599px) {
 
-    .grid-container {
+    .itemMama2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .grid-container,
+    .grid-container2 {
         grid-template-columns: 1fr;
     }
 
@@ -118,7 +357,11 @@
     }
 
     #gallery h3 {
-        font-size: 0.85rem;
+        font-size: 1.10rem;
+    }
+
+    #gallery .info-design {
+        font-size: 0.90rem;
     }
 
     .masTrabajos {
@@ -131,6 +374,11 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .grid-container2{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
     #gallery{
         margin: -5% 2% 5% 2%;
     }
@@ -139,9 +387,9 @@
         height: 15rem;
     }
 
-    .item9{
-    grid-column-start: 1;
-    grid-column-end: 3;
+    .item2{
+    grid-column-start: 2;
+    grid-column-end: 4;
     }
 
     .masTrabajos {
@@ -150,44 +398,178 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px){
-    .grid-container {
+    .grid-container{
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .grid-container2{
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 
     .grid-item {
         min-width: 5rem;
         min-height: 10rem;
     }
     .item1 {
-        grid-row-start: 1;
-        grid-row-end: 3;
-    }
-
-    .item2 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        grid-row-end: 2;
-    }
-
-    .item3 {
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
     }
 
+    .item2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
     .item4 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .item5 {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 3;
         grid-row-end: 4;
     }
 
+    .item6 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .item7 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .item8 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .item9 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .item10 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .item11 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 11;
+    }
+
+
 
     #gallery{
         margin: -5% 2% 5% 2%;
+    }
+
+
+    
+    //mamamotos
+
+    .itemMama1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .itemMama2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .itemMama3 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .itemMama4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .itemMama5 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .itemMama6 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .itemMama7 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .itemMama8 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+
+    .itemMama9 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+
+    //mamamotos
+    //life
+
+    .itemLife3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
     }
 }
 
@@ -197,64 +579,95 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    .grid-container2 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
     .grid-item {
         min-width: 5rem;
         min-height: 10rem;
     }
 
     .item1 {
-        grid-row-start: 1;
-        grid-row-end: 3;
-    }
-
-    .item2 {
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
     }
 
-    .item3 {
+    .item2 {
         grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-
-    .item4 {
-        grid-column-start: 4;
         grid-column-end: 5;
         grid-row-start: 1;
-        grid-row-end: 2;
-    }
-
-    .item8 {
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 3;
         grid-row-end: 4;
     }
 
-    .item9 {
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .item4 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .item5 {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 3;
         grid-row-end: 4;
     }
 
-    .item10 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-    .item11 {
+    .item6 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 3;
         grid-row-end: 4;
     }
+
+    .item7 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .item8 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .item9 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .item10 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .item11 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 10;
+    }
+
+
+    // end esteticas
 
         
     #gallery{
@@ -269,7 +682,233 @@
     .mas-trabajos-aclaracion {
         font-size: 0.5rem;
     }
+
+
+    //mamamotos
+
+    .itemMama1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .itemMama2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .itemMama3 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .itemMama4 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .itemMama5 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .itemMama6 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .itemMama7 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .itemMama8 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .itemMama9 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    //mamamotos
     
+
+    //cosmeprof
+
+        .itemCosme1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+    
+        .itemCosme2 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+    
+        .itemCosme3 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+    
+        .itemCosme4 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+ 
+        
+        .itemCosme5 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+    
+        .itemCosme6 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+    
+        .itemCosme7 {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+    
+        .itemCosme8 {
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+    
+        .itemCosme9 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+
+        .itemCosme10 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+
+        .itemCosme11 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+    
+        .itemCosme12 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+    
+        .itemCosme13 {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+    
+        .itemCosme14 {
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+    
+        .itemCosme15 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 6;
+            grid-row-end: 7;
+        }
+    
+        .itemCosme16 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 6;
+            grid-row-end: 7;
+        }
+    
+        .itemCosme17 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 7;
+            grid-row-end: 8;
+        }
+    
+        .itemCosme18 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 7;
+            grid-row-end: 8;
+        }
+
+        .itemCosme19 {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 7;
+            grid-row-end: 8;
+        }
+
+        .itemCosme20 {
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 7;
+            grid-row-end: 8;
+        }
+
+
+        //cosmeprof
+
+           //life
+
+    
+        .itemLife3 {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+ 
+        //end life
 }
 
 .masTrabajos {
