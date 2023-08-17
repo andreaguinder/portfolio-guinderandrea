@@ -23,10 +23,8 @@ p{
     color: $color3;
     background-color: $color4;
     border-radius: 5px;
-    margin-top: 0%; 
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    margin: 2rem auto 5rem;
+    width: 15rem;
     box-shadow: 0px 5px 5px rgba(29, 29, 29, 0.377), 0px -5px 5px rgba(32, 32, 32, 0.329);
 
         i{
@@ -214,4 +212,11 @@ p{
 .recibir__novedades:focus{
     background-color: $color1;
     color: $color3;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .form__contact {
+        width: 26rem;
+    }
 }
