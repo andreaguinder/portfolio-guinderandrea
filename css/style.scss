@@ -206,6 +206,7 @@ div.menu-hamburguesa{
     display: flex;
     animation: fadeIn 1.5s ease;
 }
+
 @media only screen and (min-width: 767px){
     .mainSpace .mockup-web{
         width: 45%;
@@ -280,12 +281,27 @@ div.menu-hamburguesa{
 .btnPink{
     background-color: $color1;
     color: $color3;
-    padding: 0.75rem 1rem;
+    padding: 0.25rem 0.50rem;
+    border-radius: 0.5rem;
+    font-size: 0.5rem;
+}
+
+
+.btnPink:hover{
+    background-color: $color2;
+    color: $color3;
+}
+
+.btnPink2{
+    background-color: $color1;
+    color: $color3;
+    padding: 0.25rem 0.50rem;
     border-radius: 0.5rem;
     font-size: 1rem;
 }
 
-.btnPink:hover{
+
+.btnPink2:hover{
     background-color: $color2;
     color: $color3;
 }
@@ -307,12 +323,6 @@ div.menu-hamburguesa{
         padding: 0;
         margin-top: 1.60rem;
         margin-left: 0.75rem;
-    }
-
-    .btnPink{
-        padding: 0.75rem 1.25rem;
-        border-radius: 0.5rem;
-        font-size: 1rem;
     }
 
     .formularioButton {

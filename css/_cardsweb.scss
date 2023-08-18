@@ -7,7 +7,7 @@
 .blog-card {
     height: 150px;
     width: 250px;
-    padding-left: 0;
+    padding: 0rem 0.5rem 0rem 0rem;
     display: flex;
     box-shadow: 0 3px 7px -1px rgba($color6, .1);
     background-color: $color3;
@@ -72,7 +72,7 @@
 
     }
     .description {
-        padding: 1rem;
+        padding: 1rem 0rem 0rem;
         background-color: $color3;
         position: relative;
         z-index: 1;
@@ -95,10 +95,11 @@
             text-align: right;
 
             a {
-                color: $color1;
+                color: $color3;
                 display: inline-block;
                 position: relative;
                 font-size: 0.80rem;
+                text-decoration: none;
 
                 &:after {
                     margin-left: -10px;
@@ -191,10 +192,21 @@
     color: $color1;
     font-weight: 600;
     font-size: 1rem;
+    text-align: end;
+    margin-bottom: 2.5rem;
 }
 
 @media only screen and (min-width: 767px) {
     .blog-card {
         height: 200px;
     }
+}
+
+@media only screen and (min-width: 1201px) {
+
+    .h5__cards{
+
+        margin-bottom: 5rem;
+    }
+
 }

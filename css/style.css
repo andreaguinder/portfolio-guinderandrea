@@ -400,12 +400,25 @@ div.menu-hamburguesa {
 .btnPink {
   background-color: rgb(255, 111, 212);
   color: #ffffff;
-  padding: 0.75rem 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.5rem;
+}
+
+.btnPink:hover {
+  background-color: rgb(173, 9, 99);
+  color: #ffffff;
+}
+
+.btnPink2 {
+  background-color: rgb(255, 111, 212);
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
   font-size: 1rem;
 }
 
-.btnPink:hover {
+.btnPink2:hover {
   background-color: rgb(173, 9, 99);
   color: #ffffff;
 }
@@ -437,7 +450,7 @@ p {
   background-color: rgba(0, 0, 0, 0.685);
   border-radius: 5px;
   margin: 2rem auto 5rem;
-  width: 16rem;
+  width: 310px;
   box-shadow: 0px 5px 5px rgba(29, 29, 29, 0.377), 0px -5px 5px rgba(32, 32, 32, 0.329);
 }
 .form__contact i {
@@ -816,7 +829,7 @@ p {
 .blog-card {
   height: 150px;
   width: 250px;
-  padding-left: 0;
+  padding: 0rem 0.5rem 0rem 0rem;
   display: flex;
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
@@ -870,7 +883,7 @@ p {
   margin-right: 10px;
 }
 .blog-card .description {
-  padding: 1rem;
+  padding: 1rem 0rem 0rem;
   background-color: #ffffff;
   position: relative;
   z-index: 1;
@@ -891,10 +904,11 @@ p {
   text-align: right;
 }
 .blog-card .description .read-more a {
-  color: rgb(255, 111, 212);
+  color: #ffffff;
   display: inline-block;
   position: relative;
   font-size: 0.8rem;
+  text-decoration: none;
 }
 .blog-card .description .read-more a:after {
   margin-left: -10px;
@@ -968,11 +982,18 @@ p {
   color: rgb(255, 111, 212);
   font-weight: 600;
   font-size: 1rem;
+  text-align: end;
+  margin-bottom: 2.5rem;
 }
 
 @media only screen and (min-width: 767px) {
   .blog-card {
     height: 200px;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  .h5__cards {
+    margin-bottom: 5rem;
   }
 }
 .linea {
@@ -1057,13 +1078,14 @@ p {
 }
 
 .volverDesign a {
-  color: rgb(255, 111, 212);
+  color: #ffffff;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 .volverDesign a:hover,
 .volverDesign a:active {
-  color: rgb(173, 9, 99);
+  color: #ffffff;
 }
 
 /*----------Galería con GRID: Items con imágenes----------*/
@@ -1886,11 +1908,6 @@ footer .fab:hover {
     padding: 0;
     margin-top: 1.6rem;
     margin-left: 0.75rem;
-  }
-  .btnPink {
-    padding: 0.75rem 1.25rem;
-    border-radius: 0.5rem;
-    font-size: 1rem;
   }
   .formularioButton {
     justify-content: flex-start;

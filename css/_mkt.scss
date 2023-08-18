@@ -56,13 +56,14 @@
 }
 
 .volverDesign a{
-    color: $color1;
+    color: $color3;
     font-size: 1rem;
+    text-decoration: none;
 }
 
 .volverDesign a:hover,
 .volverDesign a:active{
-    color: $color2;
+    color: $color3;
 }
 /*----------Galería con GRID: Items con imágenes----------*/
 /*----------Galería con GRID: Items con imágenes----------*/
